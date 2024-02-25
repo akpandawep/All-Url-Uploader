@@ -13,10 +13,10 @@ load_dotenv()
 
 class Config(object):
     # Get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_TOKEN = os.environ.get("7112683751:AAGg06BCOLPBIGptNMgQu8OSWFrlmARMrag")
     # The Telegram API things
-    API_ID = os.environ.get("API_ID")
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = os.environ.get("23182335")
+    API_HASH = os.environ.get("373389a98695c20b5e52084cc636efdf")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
 
@@ -37,5 +37,5 @@ class Config(object):
 
     OWNER_ID = os.environ.get("OWNER_ID")
     ADL_BOT_RQ = {}
-    AUTH_USERS = list({int(x) for x in os.environ.get("AUTH_USERS", "0").split()})
+    AUTH_USERS = list({int(x) for x in os.environ.get("AUTH_USERS", "6141937812").split()})
     AUTH_USERS.append(OWNER_ID)
